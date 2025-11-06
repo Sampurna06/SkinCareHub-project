@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkinCareHub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌿 SkinCareHub</h1>
+    <p>Get personalized skincare tips for your skin type!</p>
+
+    <form id="careForm">
+      <label for="skinType">Select your skin type:</label>
+      <select id="skinType" required>
+        <option value="">--Choose--</option>
+        <option value="dry">Dry</option>
+        <option value="oily">Oily</option>
+        <option value="combination">Combination</option>
+        <option value="sensitive">Sensitive</option>
+        <option value="normal">Normal</option>
+      </select>
+
+      <button type="submit">Get Recommendations</button>
+    </form>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
